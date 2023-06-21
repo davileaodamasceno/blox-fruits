@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Site Davi Leão</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body id="corpo">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: aqua;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="DaviKing.png" width="30px" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#comecando">Começando do zero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#frutas">Frutas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#codigos">Codigos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#jogar">Comece a jogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#redes">Redes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <main class="container">
+
+        <section id="comecando">
+            <h2 class="titulo">Começando o Blox Fruit do ZERO</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vKH2evJM1Nw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <hr style="height: 15px; background-color: rgb(27, 147, 137);">
+            <section id="inicio">
+            </section>
+
+            <section id="frutas">
+                <br />
+                <h1 class="titulo">Frutas</h1>
+                <br />
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Frutas Comuns &nbsp;
+                                <img class="loguinhos" src="imagens/1.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/3.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/5.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/7.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/9.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/11.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/13.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseOne"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="1" class="frutasComuns" src="imagens/1.png" onmouseover="trocarImagem1()"
+                                    onmouseleave="restaurarImagem1()" />
+                                <img id="3" class="frutasComuns" src="imagens/3.png" onmouseover="trocarImagem3()"
+                                    onmouseleave="restaurarImagem3()" />
+                                <img id="5" class="frutasComuns" src="imagens/5.png" onmouseover="trocarImagem5()"
+                                    onmouseleave="restaurarImagem5()" />
+                                <img id="7" class="frutasComuns" src="imagens/7.png" onmouseover="trocarImagem7()"
+                                    onmouseleave="restaurarImagem7()" />
+                                <img id="9" class="frutasComuns" src="imagens/9.png" onmouseover="trocarImagem9()"
+                                    onmouseleave="restaurarImagem9()" />
+                                <img id="11" class="frutasComuns" src="imagens/11.png" onmouseover="trocarImagem11()"
+                                    onmouseleave="restaurarImagem11()" />
+                                <img id="13" class="frutasComuns" src="imagens/13.png" onmouseover="trocarImagem13()"
+                                    onmouseleave="restaurarImagem13()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Frutas Incomuns &nbsp;
+                                <img class="loguinhos" src="imagens/15.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/17.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/19.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/21.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/23.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/25.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/27.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseTwo"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="15" class="frutasIncomum" src="imagens/15.png" onmouseover="trocarImagem15()"
+                                    onmouseleave="restaurarImagem15()" />
+                                <img id="17" class="frutasIncomum" src="imagens/17.png" onmouseover="trocarImagem17()"
+                                    onmouseleave="restaurarImagem17()" />
+                                <img id="19" class="frutasIncomum" src="imagens/19.png" onmouseover="trocarImagem19()"
+                                    onmouseleave="restaurarImagem19()" />
+                                <img id="21" class="frutasIncomum" src="imagens/21.png" onmouseover="trocarImagem21()"
+                                    onmouseleave="restaurarImagem21()" />
+                                <img id="23" class="frutasIncomum" src="imagens/23.png" onmouseover="trocarImagem23()"
+                                    onmouseleave="restaurarImagem23()" />
+                                <img id="25" class="frutasIncomum" src="imagens/25.png" onmouseover="trocarImagem25()"
+                                    onmouseleave="restaurarImagem25()" />
+                                <img id="27" class="frutasIncomum" src="imagens/27.png" onmouseover="trocarImagem27()"
+                                    onmouseleave="restaurarImagem27()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Frutas Raras &nbsp;
+                                <img class="loguinhos" src="imagens/29.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/31.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/33.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/35.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseThree"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="29" class="frutasRaras" src="imagens/29.png" onmouseover="trocarImagem29()"
+                                    onmouseleave="restaurarImagem29()" />
+                                <img id="31" class="frutasRaras" src="imagens/31.png" onmouseover="trocarImagem31()"
+                                    onmouseleave="restaurarImagem31()" />
+                                <img id="33" class="frutasRaras" src="imagens/33.png" onmouseover="trocarImagem33()"
+                                    onmouseleave="restaurarImagem33()" />
+                                <img id="35" class="frutasRaras" src="imagens/35.png" onmouseover="trocarImagem35()"
+                                    onmouseleave="restaurarImagem35()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Frutas Legendárias &nbsp;
+                                <img class="loguinhos" src="imagens/37.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/39.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/41.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/43.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/45.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/47.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/49.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/51.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/53.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseFour"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="37" class="frutasLegendarias" src="imagens/37.png"
+                                    onmouseover="trocarImagem37()" onmouseleave="restaurarImagem37()" />
+                                <img id="39" class="frutasLegendarias" src="imagens/39.png"
+                                    onmouseover="trocarImagem39()" onmouseleave="restaurarImagem39()" />
+                                <img id="41" class="frutasLegendarias" src="imagens/41.png"
+                                    onmouseover="trocarImagem41()" onmouseleave="restaurarImagem41()" />
+                                <img id="43" class="frutasLegendarias" src="imagens/43.png"
+                                    onmouseover="trocarImagem43()" onmouseleave="restaurarImagem43()" />
+                                <img id="45" class="frutasLegendarias" src="imagens/45.png"
+                                    onmouseover="trocarImagem45()" onmouseleave="restaurarImagem45()" />
+                                <img id="47" class="frutasLegendarias" src="imagens/47.png"
+                                    onmouseover="trocarImagem47()" onmouseleave="restaurarImagem47()" />
+                                <img id="49" class="frutasLegendarias" src="imagens/49.png"
+                                    onmouseover="trocarImagem49()" onmouseleave="restaurarImagem49()" />
+                                <img id="51" class="frutasLegendarias" src="imagens/51.png"
+                                    onmouseover="trocarImagem51()" onmouseleave="restaurarImagem51()" />
+                                <img id="53" class="frutasLegendarias" src="imagens/53.png"
+                                    onmouseover="trocarImagem53()" onmouseleave="restaurarImagem53()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Frutas Místicas &nbsp;
+                                <img class="loguinhos" src="imagens/55.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/57.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/59.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/61.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/63.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/65.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/67.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/69.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseFive"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="55" class="frutasMisticas" src="imagens/55.png" onmouseover="trocarImagem55()"
+                                    onmouseleave="restaurarImagem55()" />
+                                <img id="57" class="frutasMisticas" src="imagens/57.png" onmouseover="trocarImagem57()"
+                                    onmouseleave="restaurarImagem57()" />
+                                <img id="59" class="frutasMisticas" src="imagens/59.png" onmouseover="trocarImagem59()"
+                                    onmouseleave="restaurarImagem59()" />
+                                <img id="61" class="frutasMisticas" src="imagens/61.png" onmouseover="trocarImagem61()"
+                                    onmouseleave="restaurarImagem61()" />
+                                <img id="63" class="frutasMisticas" src="imagens/63.png" onmouseover="trocarImagem63()"
+                                    onmouseleave="restaurarImagem63()" />
+                                <img id="65" class="frutasMisticas" src="imagens/65.png" onmouseover="trocarImagem65()"
+                                    onmouseleave="restaurarImagem65()" />
+                                <img id="67" class="frutasMisticas" src="imagens/67.png" onmouseover="trocarImagem67()"
+                                    onmouseleave="restaurarImagem67()" />
+                                <img id="69" class="frutasMisticas" src="imagens/69.png" onmouseover="trocarImagem69()"
+                                    onmouseleave="restaurarImagem69()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Frutas Indisponíveis&nbsp;
+                                <img class="loguinhos" src="imagens/71.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/73.png" />&nbsp;
+                                <img class="loguinhos" src="imagens/75.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseSix"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="71" class="frutasIndisponiveis" src="imagens/71.png"
+                                    onmouseover="trocarImagem71()" onmouseleave="restaurarImagem71()" />
+                                <img id="73" class="frutasIndisponiveis" src="imagens/73.png"
+                                    onmouseover="trocarImagem73()" onmouseleave="restaurarImagem73()" />
+                                <img id="75" class="frutasIndisponiveis" src="imagens/75.png"
+                                    onmouseover="trocarImagem75()" onmouseleave="restaurarImagem75()" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button style="background-color: rgb(27, 147, 137); color: aliceblue"
+                                class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Frutas Administrativas&nbsp;
+                                <img class="loguinhos" src="imagens/77.png" />&nbsp;
+                            </button>
+                        </h2>
+                        <div style="background-color: #E4AE43; color: aliceblue" id="collapseSeven"
+                            class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img id="77" class="frutasAdministrativas" src="imagens/77.png"
+                                    onmouseover="trocarImagem77()" onmouseleave="restaurarImagem77()" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </section>
+            <section id="codigos">
+                <h2><i>Codigos</i> de Blox Fruits</h2>
+                <br>
+                <div>
+                    <details class="codigosdetalhes">
+                        <summary>Aumentando seu XP</summary>
+                        <p>15B_BESTBROTHERS</p>
+                        <p>DEVSCOOKING</p>
+                        <p>Enyu_is_Pro</p>
+                        <p>Magicbus</p>
+                        <p>Sub2Fer999P</p>
+                        <p>Starcodeheo</p>
+                        <p>SUB2CAPTAINMAUI</p>
+                        <p>SUB2NOOBMASTER123</p>
+                        <p>JCWK</p>
+                        <p>KittGaming</p>
+                        <p>Bluxxy</p>
+                        <p>Sub2OfficialNoobie</p>
+                        <p> TheGreatAce</p>
+                        <p>Axiore</p>
+                        <p>Sub2Daigrock</p>
+                        <p>TantaiGaming</p>
+                        <p>StrawHatMaine</p>
+                        <p>SUB2GAMERROBOT_EXP1</p>
+                    </details>
+                    <details class="codigosdetalhes">
+                        <summary>Aumentando seu beli(dinheiro)</summary>
+                        <p>fudd10_v2</p>
+                        <p>Fudd10</p>
+                    </details>
+                    <details class="codigosdetalhes">
+                        <summary>Resetar os status</summary>
+                        <p>Sub2UncleKizaru</p>
+                        <p>SUB2GAMERROBOT_RESET1</p>
+                    </details>
+                    <details class="codigosdetalhes">
+                        <summary>Título</summary>
+                        <p>Bignews - Title</p>
+                    </details>
+
+
+                </div>
+            </section>
+            <br><br><br>
+
+            <section id="jogar">
+                <figure>
+                    <a href="https://web.roblox.com/games/2753915549/Blox-Fruits" target="_blank"><img
+                            src="bloxJOGAR.png" alt="oioioioi" width="80%"></a>
+                    <figcaption><kbd>Clique na imagem para jogar Blox Fruit</kbd></figcaption>
+                </figure>
+            </section>
+
+
+            <section id="contatos" style="text-align: center;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d812.2495536223423!2d-79.4551461874286!3d43.924098646509684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ad5015f9f4367%3A0x94ae1a9bb34fd249!2sblox%20fruits!5e0!3m2!1spt-BR!2sbr!4v1684885153549!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <br>
+            <br>
+    </main>
+
+    <footer class="container">
+        <section id="redes">
+            <div>
+                <div style="float:left;">
+                    <img src="DaviKing.png" alt="" width="200px">
+
+                </div>
+                <br><br><br>&nbsp;
+                <a style="text-decoration: none;" href="https://www.instagram.com/bloxfruitsoffical/" target="_blank"><i
+                        class="fa fa-instagram"></i>&nbsp;@instagram</a>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

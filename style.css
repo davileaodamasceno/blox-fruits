@@ -1,0 +1,82 @@
+#corpo{
+background-color: rgb(129, 247, 225);
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    border-style: dotted;
+}
+p{
+    background-color:aliceblue; 
+    width:500px; 
+    margin-left:500px;
+}
+.menu{
+    text-align: center;
+}
+
+
+.frutasComuns{
+    background-color: aquamarine;
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasIncomum{
+    background-color: rgb(255, 127, 195);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasRaras{
+    background-color: rgb(255, 187, 127);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasLegendarias{
+    background-color: rgb(255, 187, 127);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasMisticas{
+    background-color: rgb(133, 255, 127);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasIndisponiveis{
+    background-color: rgb(168, 127, 255);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;
+}
+
+.frutasAdministrativas{
+    background-color: rgb(255, 127, 249);
+    border-radius: 10%;
+    width: 20%;
+    margin: 0.3%;  
+}
+
+.loguinhos{
+  width: 3%;
+}
+
+.codigosdetalhes{
+    width: 100%;
+    text-align: left;
+    background-color: rgb(27, 147, 137);
+    list-style: none;
+    font-size: 20px;
+    color:black;
+}
